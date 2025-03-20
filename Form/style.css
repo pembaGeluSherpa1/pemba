@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color:blueviolet;
+    padding: 10px;
+}
+
+.logo{
+    height: 50px;
+}
+
+#address{
+    color: aliceblue;
+    padding-right: 40px;
+}
+
+.form-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.gender {
+    display: flex;
+    
+}

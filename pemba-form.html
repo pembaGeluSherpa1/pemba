@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>Pemba's/Table</title>
+    <style>
+	*{
+	font-family:sans-serif;
+	}
+	.container2{
+	margin:30px 0px 30px 0px; 
+	}
+
+	#name, #email, #password{
+	width: 400px;
+	margin-bottom: 10px;
+	}
+
+	input {
+	margin-bottom: 10px;
+	}
+
+	.container{
+	width: 650px;
+	box-shadow: 0px 12px 15px 2px black;
+	padding:20px;
+	border-radius: 20px;
+	display:grid;
+	place-items: center;
+	background-color: white;
+	}
+
+	.main {
+	display:flex;
+	justify-content: center;
+	margin:40px 0px 40px 0px;
+	}
+
+	body {
+	background-color: lightgrey;
+	}
+	
+	p {
+	width:190px;
+	background-color: white;
+	position:relative;
+	}
+
+	.container3 {
+	border: 1px solid;
+	width: 550px;
+	padding: 30px 10px 20px 10px;
+	border-radius: 20px;
+	margin-top: -25px;
+	}
+
+    </style>
+</head>
+<body>
+<div class="main">
+<div class="container">
+<div class="Container-form">
+<!-- <b>Form</b> -->
+<form>
+	<h3>Form Practice</h3>
+	<p>User Personal Information</p>
+	<div class="container3">
+	<label>
+	Enter Your Full Name:-<br>
+		<input type="text" id="name" placeholder="username" required>
+	</label><br>
+	<label>
+	Enter Your email:-<br>
+		<input id="email" type="email" placeholder="***@gmail.com" required>
+	</label><br>
+	<label>
+	Enter Your Password:-<br>
+		<input type="password" required id="password" >
+	</label><br>
+	<label>
+	Enter Your Age:-<br>
+		<input type="number" required id="password" >
+	</label><br>
+	<label>
+	Enter Your local datetime:-<br>
+		<input type="datetime-local" required id="password" >
+	</label><br>
+	<label>
+	Pick Color:-<br>
+		<input type="color" id="color">
+	</label><br>
+	<label>
+	Select File:-<br>
+		<input type="file">
+	</label><br>
+	<label>
+	Range:-<br>
+		<input type="range">
+	</label><br>
+	<label for="gender">
+	Enter Your Gender:-<br>
+		<input type="radio" name="gender" id="Male">Male<br>
+		<input type="radio" name="gender" id="Female">Female<br>
+	</label><br>
+	<label>
+	Enter Your Message:-<br>
+		<textarea rows="10" col="20"></textarea>
+	</label><br>
+	<label>
+	Checkbox<br>
+	<input type="checkbox" id="agree">Agree
+	</label><br>
+	
+	<button>Submit</button>
+	<br>
+	</div>
+	<!-- <div class="container4">
+		<label for="dateTime">Date Time</label>
+		<input type="datetime-local">
+		<label for="">Date</label>
+		<input type="date">
+		<label for="dateTime">Upload the file</label>
+		<input type="file">
+		<label for="">Search</label>
+		<input type="search">
+		<label for="">Enter a age</label>
+		<input type="number">
+		<label for="">Date</label>
+		<input type="date">
+	</div> -->
+</form>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="number"],
+        input[type="range"],
+        input[type="color"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="radio"] {
+            margin-left: 10px;
+        }
+        #color input{
+            height: 90px;
+        }
+        .gender-label {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="name">Username:
+            <input type="text">
+        </label>
+        <label for="email">Email:
+            <input type="email">
+        </label>
+        <label for="password">Password:
+            <input type="password">
+        </label>
+        <label for="age">Age:
+            <input type="number">
+        </label>
+        <label class="gender-label" for="gender">Gender:
+            <input type="radio" name="gender" id="male"> Male
+            <input type="radio" name="gender" id="female"> Female
+        </label>
+        <label for="range">Range:
+            <input type="range">
+        </label>
+        <label for="color" id="color">Colour:
+            <input type="color">
+        </label>
+    </form>
+</body>
+</html>

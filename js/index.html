@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get">
+        <label for="number">1st:
+            <input type="text" name="one" id="first">
+        </label>
+        <label for="number">2nd: 
+            <input type="text" name="two" id="second">
+        </label>
+        <label for="sum">Sum
+            <input type="text" id="sum" value="">
+        </label>
+        <input onclick="add()" type="button" value="Add">
+        </form>
+    <script>
+        function add(){
+            // event.preventDefault();
+            const a = Number(document.getElementById("first").value);
+            const b = Number(document.getElementById("second").value);
+            document.getElementById("sum").value = a+b;
+        }
+    </script>
+</body>
+</html>
